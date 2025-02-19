@@ -1,4 +1,4 @@
-# Änderungen Termina Prompt
+# Änderungen Terminal Prompt
 PROMPT='%F{89}path: %~%f'   # "path: " gefolgt vom aktuellen Pfad in der ersten Zeile
 PROMPT+='
 '   # Erzeugt eine neue Zeile nach dem Pfad
