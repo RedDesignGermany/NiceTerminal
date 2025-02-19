@@ -1,4 +1,4 @@
-# Nicer Terminal
+#  a Nicer Terminal
 Make your mac terminal prompt (.zshrc) a bit nicer.
 
 ### Änderungen Terminal Prompt
