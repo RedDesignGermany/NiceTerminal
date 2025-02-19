@@ -1,15 +1,23 @@
 #  a Nicer Terminal
 Make your mac terminal prompt (.zshrc) a bit nicer.
 
-### Änderungen Terminal Prompt
+Open your .zshrc file, which is usually saved under your user name: 
+
+/users/.zshrc
+
+or
+
+~/.zshrc
+
+### Changes of prompt
 ```zsh
-PROMPT='%F{89}path: %~%f'   # "path: " gefolgt vom aktuellen Pfad in der ersten Zeile
+PROMPT='%F{89}path: %~%f'   # “path: ” followed by the current path in the first line
 PROMPT+='
-'   # Erzeugt eine neue Zeile nach dem Pfad
-PROMPT+='%F{75}%n@%m%f %# '  # Benutzername und Hostname in der zweiten Zeile
+'   # Creates a new line after the path
+PROMPT+='%F{75}%n@%m%f %# '  # Username and hostname in the second line
 ```
 
-### Alias für ls mit Farben
+### Alias for ls with colors
 ```zsh
 alias ls='ls -l -a -G -p'
 ```
@@ -18,7 +26,7 @@ or
 alias ls='ls -a -G -p'
 ```
 
-### LS_COLORS für die Farbkonfiguration
+### LS_COLORS for the color configuration
 ```zsh
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
