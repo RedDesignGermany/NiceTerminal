@@ -21,7 +21,7 @@ PROMPT+='%F{75}%n@%m%f %# '  # Username and hostname in the second line
 ```zsh
 alias ls='ls -l -a -G -p'
 ```
-or
+or this (which i prefer)
 ```zsh
 alias ls='ls -a -G -p'
 ```
